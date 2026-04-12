@@ -33,6 +33,7 @@ let / const / var  storageName = value;
 ```
 
 - **`let`**, **`const`**, and **`var`** are called **specifiers** (also known as declaration keywords).
+- They actually control that perticular storage - where, and who can access the value from that perticular storage. Also they controls how many times I can put value to that perticular storage.
 - **`storageName`** is the variable name (the name of your box).
 - **`=`** is the **assignment operator**.
 - **`value`** is the data you are storing inside the variable.
@@ -436,13 +437,3 @@ When the AST cannot be formed due to a grammar violation, JavaScript **immediate
 | Heap Memory | Stores non-primitive values (referenced by address) |
 | JS Code Pipeline | Tokenizing → Parsing (AST) → Code Generation → Execution |
 
----
-
-## 11. Assignment / Tasks
-
-1. **Declare variables** for a person's name, age, student status (boolean), and favorite programming language.
-2. **Assign values** to each variable and **print** them to the console using `console.log()`.
-3. **Reassign** some of the values — observe the behavior with `let` vs `const` (what errors do you get?).
-4. **Create a variable** and assign an **object** as its value. Try changing properties and observe behavior.
-5. **Create a variable** and assign an **array** as its value. Try modifying elements and observe behavior.
-6. **Explore AST Explorer** at [astexplorer.net](https://astexplorer.net) — write different variable declarations and study the generated Abstract Syntax Tree.
