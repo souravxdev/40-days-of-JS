@@ -1,39 +1,38 @@
 # 40 Days of JavaScript
 
-Welcome to my **40 Days of JavaScript** learning repository! This project is dedicated to documenting my journey of learning JavaScript from the ground up, following the comprehensive tutorials by [40 Days of JavaScript from TapaScript on YouTube](https://www.youtube.com/playlist?list=PLIJrr73KDmRw2Fwwjt6cPC_tk5vcSICCu).
+My journey through [TapaScript's 40 Days of JavaScript](https://www.youtube.com/playlist?list=PLIJrr73KDmRw2Fwwjt6cPC_tk5vcSICCu) — one day, one concept, one folder at a time.
 
-## About This Repository
+## Progress
 
-This repository serves as a centralized collection of my daily progress, coding exercises, assignments, and projects completed during the 40-day challenge. It's structured day-by-day to track my growth and provide an easy reference for JavaScript concepts ranging from beginner to advanced.
+| Day | Topic | Folder |
+|-----|-------|--------|
+| 01 | Introduction to JavaScript & Setup | [day-01/](day-01/) |
+| 02 | Variables & Data Types | [day-02/](day-02/) |
+| 03 | Operators & Expressions | [day-03/](day-03/) |
 
-## Directory Structure
+## Structure
 
-The repository is organized into daily folders, each containing:
-- **Practice:** Code snippets and experiments based on the daily lessons.
-- **Assignments:** Completed tasks and exercises given at the end of each topic.
-- **Projects:** Mini-projects applying the concepts learned.
-- **Notes/README:** Key takeaways and summaries for the specific day.
-
-Example structure:
 ```text
-├── day-01/
-│   ├── practice/
-│   ├── assignment/
-│   ├── project/
-│   └── README.md
-├── day-02/
-...
+day-XX/
+├── practice/      // hands-on code from the lesson
+├── assignment/    // end-of-day exercises
+├── project/       // mini-projects (when applicable)
+└── README.md      // notes & takeaways
 ```
 
-## Tech Stack & Tools
+## Glimpse of Learnings
 
-- **Language:** JavaScript (ES6+)
-- **Environment:** Node.js, Browser (HTML/CSS/JS)
-- **Editor:** VS Code
+- **Day 01** — What JS is, its history from Brendan Eich to ES6+, how the JS engine runs code, and setting up a dev environment.
+- **Day 02** — `var`, `let`, `const`, primitive vs reference types, type coercion, and the box analogy for variables.
+- **Day 03** — Arithmetic, assignment, comparison, logical, and ternary operators; operands, expressions, and precedence.
 
-## Acknowledgment
+## Stack
 
-A massive shoutout to [TapaScript](https://www.tapascript.io/) for creating this amazing and structured learning path. I highly recommend checking out their channel for high-quality web development content!
+JavaScript (ES6+) · Node.js · VS Code
+
+## Credits
+
+Thanks to [TapaScript](https://www.tapascript.io/) for the structured curriculum.
 
 ---
-*Consistency is the key to mastery.* 
+*Consistency is the key to mastery.*
