@@ -5,21 +5,21 @@ console.log("Day 03");
 // Expression - x = 2, 3 + 4
 
 // Arithmatic Operators
-let a = 10;
-let b = 20;
-console.log(a + b); // 30  → Addition Operator
-console.log(a - b); // -10 → Subtraction Operator
-console.log(b - a); // 10
-console.log(a * b); // 200 → Multiplication Operator
-console.log(a / b); // 0.5 → Division Operator
+// let a = 10;
+// let b = 20;
+// console.log(a + b); // 30  → Addition Operator
+// console.log(a - b); // -10 → Subtraction Operator
+// console.log(b - a); // 10
+// console.log(a * b); // 200 → Multiplication Operator
+// console.log(a / b); // 0.5 → Division Operator
 
-let firstName = "Sourav";
-let lastName = "Chowdhury";
-console.log(firstName + lastName); // "SouravChowdhury" - String Concatenation with +
+// let firstName = "Sourav";
+// let lastName = "Chowdhury";
+// console.log(firstName + lastName); // "SouravChowdhury" - String Concatenation with +
 
-console.log(a ** b); // Exponentiation Operator
+// console.log(a ** b); // Exponentiation Operator
 
-console.log(12 % 5); // Modulus Operator
+// console.log(12 % 5); // Modulus Operator
 
 // let count = 5;
 // console.log(count++); // 5 ← returns FIRST, then increments - Post-Increment (count++)
@@ -46,3 +46,10 @@ console.log(12 % 5); // Modulus Operator
 // Comparison Operators
 // Loose Equality ==
 // Strict Equality ===
+
+// let obj1 = { name: "TapasScript" };
+// let obj2 = { name: "TapasScript" };
+
+// console.log(obj1 === obj2); // False
+
+console.log("cow" && "horse");

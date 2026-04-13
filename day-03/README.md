@@ -242,6 +242,7 @@ let obj1 = { name: "TapasScript" };
 let obj2 = { name: "TapasScript" };
 
 console.log(obj1 === obj2); // false
+console.log(obj1.name === obj2.name); // True
 ```
 
 - `obj1` points to memory address `XX11`
