@@ -9,6 +9,7 @@ My journey through [TapaScript's 40 Days of JavaScript](https://www.youtube.com/
 | 01 | Introduction to JavaScript & Setup | [day-01/](day-01/) |
 | 02 | Variables & Data Types | [day-02/](day-02/) |
 | 03 | Operators & Expressions | [day-03/](day-03/) |
+| 04 | Control Flow | [day-04/](day-04/) |
 
 ## Structure
 
@@ -22,9 +23,10 @@ day-XX/
 
 ## Glimpse of Learnings
 
-- **Day 01** — What JS is, its history from Brendan Eich to ES6+, how the JS engine runs code, and setting up a dev environment.
-- **Day 02** — `var`, `let`, `const`, primitive vs reference types, type coercion, and the box analogy for variables.
-- **Day 03** — Arithmetic, assignment, comparison, logical, and ternary operators; operands, expressions, and precedence.
+- **Day 01** — What JS is, its history from Brendan Eich to ES6+, client-side vs server-side, including scripts in HTML (`async`, `defer`), how the JS engine runs code (tokenizing, parsing, AST), and setting up a dev environment.
+- **Day 02** — `var`, `let`, `const`, primitive vs reference types (String, Number, Boolean, Undefined, Null, BigInt, Symbol), non-primitives (Object, Array, Function), pass by value, stack vs heap memory, and how JS parses code.
+- **Day 03** — Operands, operators, and expressions; arithmetic, assignment, comparison (`===` vs `==`), logical (`&&`, `||`, `??`), ternary, bitwise, and relational operators; `typeof` quirks; operator precedence and grouping.
+- **Day 04** — Control flow with `if`, `if...else`, `else if` chains, nested conditions, `switch...case`, `break`, fall-through, jump tables, and when to use ternary vs `if...else` vs `switch`.
 
 ## Stack
 
