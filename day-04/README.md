@@ -106,7 +106,7 @@ else
 
 However, the moment you add a **second statement**, you *must* use curly braces — otherwise only the first line is treated as part of the block.
 
-> ⚠️ **Best Practice:** **Always use curly braces**, even for single-line blocks. This prevents bugs and makes code easier to read and maintain.
+> **Best Practice:** **Always use curly braces**, even for single-line blocks. This prevents bugs and makes code easier to read and maintain.
 
 ---
 
@@ -279,7 +279,7 @@ switch (position) {
 // Output: "Print Four"
 ```
 
-> ❗ **Without `break`:** Without the `break` keyword, once a matching case is found, JavaScript "falls through" and continues executing all subsequent cases until it hits a `break` or the end of the `switch`. This is usually unintended.
+> **Without `break`:** Without the `break` keyword, once a matching case is found, JavaScript "falls through" and continues executing all subsequent cases until it hits a `break` or the end of the `switch`. This is usually unintended.
 
 ### Example 2 — Day of the Week
 
@@ -336,7 +336,7 @@ switch (name) {
 // Output: "Teaching 40 days of JS"
 ```
 
-> ⚠️ **Case sensitivity matters:** `"Google"` and `"google"` are **different strings**. If the value is `"google"` (lowercase g), it won't match `case "Google"` and the `default` block will run.
+> **Case sensitivity matters:** `"Google"` and `"google"` are **different strings**. If the value is `"google"` (lowercase g), it won't match `case "Google"` and the `default` block will run.
 
 ---
 
