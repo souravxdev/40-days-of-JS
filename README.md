@@ -4,12 +4,13 @@ My journey through [TapaScript's 40 Days of JavaScript](https://www.youtube.com/
 
 ## Progress
 
-| Day | Topic | Folder |
-|-----|-------|--------|
-| 01 | Introduction to JavaScript & Setup | [day-01/](day-01/) |
-| 02 | Variables & Data Types | [day-02/](day-02/) |
-| 03 | Operators & Expressions | [day-03/](day-03/) |
-| 04 | Control Flow | [day-04/](day-04/) |
+| Day | Topic | Folder | Interview Q&A |
+|-----|-------|--------|---------------|
+| 01 | Introduction to JavaScript & Setup | [day-01/](day-01/) | [day-01-interview-q&a](interview-q&a/day-01-interview.md) |
+| 02 | Variables & Data Types | [day-02/](day-02/) | [day-02-interview-q&a](interview-q&a/day-02-interview.md) |
+| 03 | Operators & Expressions | [day-03/](day-03/) | [day-03-interview-q&a](interview-q&a/day-03-interview.md) |
+| 04 | Control Flow | [day-04/](day-04/) | [day-04-interview-q&a](interview-q&a/day-04-interview.md) |
+| 05 | Loops & Iterations | [day-05/](day-05/) | [day-05-interview-q&a](interview-q&a/day-05-interview.md) |
 
 ## Structure
 
@@ -27,6 +28,7 @@ day-XX/
 - **Day 02** — `var`, `let`, `const`, primitive vs reference types (String, Number, Boolean, Undefined, Null, BigInt, Symbol), non-primitives (Object, Array, Function), pass by value, stack vs heap memory, and how JS parses code.
 - **Day 03** — Operands, operators, and expressions; arithmetic, assignment, comparison (`===` vs `==`), logical (`&&`, `||`, `??`), ternary, bitwise, and relational operators; `typeof` quirks; operator precedence and grouping.
 - **Day 04** — Control flow with `if`, `if...else`, `else if` chains, nested conditions, `switch...case`, `break`, fall-through, jump tables, and when to use ternary vs `if...else` vs `switch`.
+- **Day 05** — Loops & iterations: `for`, `while`, `do...while`, nested loops, multiple counters, `break` / `continue`, infinite loops, and logic-building with the `for` + condition pattern.
 
 ## Stack
 
